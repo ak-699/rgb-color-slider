@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>RGB Color-Slider</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="pallete">
+            <div class="colors red">
+                <label for="color-red">red</label>
+                <input type="range" id="color-red" min="0" max="255" value="0">
+            </div>
+            <div class="colors green">
+                <label for="color-green">green</label>
+                <input type="range" id="color-green" min="0" max="255" value="0">
+            </div>
+            <div class="colors blue">
+                <label for="color-blue">blue</label>
+                <input type="range" id="color-blue" min="0" max="255" value="0">
+            </div>
+            <div class="result">
+                <input type="text" id="rgb-color" disabled>
+                <button id="copy-color">copy color code</button>
+            </div>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
